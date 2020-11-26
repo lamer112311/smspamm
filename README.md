@@ -6,8 +6,16 @@
 termux-setup-storage
 git clone https://github.com/lamer112311/smspamm
 cd smspamm
-pip3 install -r requirements.txt
+pip3 install reqests
+pip3 install random
+pip3 install datetime
+pip3 install sys
+pip3 install time
+pip3 install argparse
+pip3 install os
+pip3 install colorama
 python3 smspamm.py
+
 
 Предупреждение! На первый момент скрипт нужно установить библиотеки для своего API, это достаточно долго, поэтому           		
 рекомендуется запустить программу, и подождать примерно 5~10 минут, после установки можно будет спокойно исмользовать программу 
